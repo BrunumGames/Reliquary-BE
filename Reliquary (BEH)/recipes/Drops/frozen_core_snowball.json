@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "frozen_core_snowball_j65d7rgy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:frozen_core",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:snowball",
+      "count": 5,
+      "data": 0
+    }
+  }
+}

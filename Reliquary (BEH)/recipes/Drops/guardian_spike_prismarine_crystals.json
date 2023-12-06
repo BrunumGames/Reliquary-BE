@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "guardian_spike_prismarine_crystals_h5rf6th8"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:guardian_spike",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:prismarine_crystals",
+      "count": 10,
+      "data": 0
+    }
+  }
+}

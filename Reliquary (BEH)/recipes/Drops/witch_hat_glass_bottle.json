@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "witch_hat_glass_bottle_n64vh8rr"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A A",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "bg:witch_hat",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:glass_bottle",
+      "count": 6,
+      "data": 0
+    }
+  }
+}

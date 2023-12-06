@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "squid_beak_ink_sac_h0r9hdyh"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:squid_beak",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:dye",
+      "count": 6,
+      "data": 0
+    }
+  }
+}
