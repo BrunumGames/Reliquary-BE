@@ -1,0 +1,47 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:ender_staff",
+        "category": "equipment"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "ender_staff"
+    },
+    "minecraft:on_use": {
+      "on_use": {
+        "event": "ender"
+      }
+    },
+    "minecraft:max_stack_size": 1,
+    "minecraft:render_offsets": "item"
+      },
+    "events": {
+      "ender": {
+        "sequence": [
+          {
+          "condition": "!q.is_sneaking",
+				   "run_command": {
+				    	"command": [ 
+            "execute as @e[hasitem={item=ender_pearl}] at @s run replaceitem entity @s slot.weapon.mainhand 0 bg:ender_staff2",
+           "execute as @e[hasitem={item=ender_pearl}] at @s run clear @s ender_pearl 0 1"
+				      	  ]
+				       }
+          },
+          {
+      "condition": "q.is_sneaking",
+       "run_command": {
+				    "command": [
+          "replaceitem entity @s slot.weapon.mainhand 0 bg:ender_staff4"
+				         ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:squid_beak",
+        "category": "items"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "squid_beak"
+    },
+    "minecraft:max_stack_size": 64,
+    "minecraft:render_offsets": "item"
+      }
+   }
+}

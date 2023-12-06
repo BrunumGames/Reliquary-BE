@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:slime_pearl",
+        "category": "items"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "slime_pearl"
+    },
+    "minecraft:max_stack_size": 64,
+    "minecraft:render_offsets": "item"
+      }
+   }
+}

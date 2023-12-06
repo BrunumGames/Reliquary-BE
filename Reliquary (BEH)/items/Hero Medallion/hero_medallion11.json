@@ -1,0 +1,45 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:hero_medallion11",
+      "category": "command"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:icon": {
+        "texture": "hero_medallion"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "hero"
+        }
+      }
+    },
+    "events": {
+      "hero": {
+        "sequence": [
+          {
+         "condition": "!q.is_sneaking",
+          "run_command": {
+				    	   "command": [
+               "execute as @e[lm=1] at @s run function hero11"
+				        ]
+          }
+       },
+       {
+      "condition": "q.is_sneaking",
+       "run_command": {
+				    "command": [
+          "replaceitem entity @s slot.weapon.mainhand 0 bg:hero_medallion10",
+          "xp 1l"
+				         ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

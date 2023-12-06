@@ -1,0 +1,47 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:void_tear12",
+      "category": "command"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "texture": "void_tear"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "void"
+        }
+      }
+    },
+    "events": {
+      "void": {
+        "sequence": [
+       {
+       "condition": "!q.is_sneaking",
+				   "run_command": {
+				    	"command": [
+            "execute as @e[hasitem={item=emerald, quantity=64..2304}] at @s run replaceitem entity @s slot.weapon.mainhand 0 bg:void_tear13",
+           "execute as @e[hasitem={item=emerald, quantity=64..2304}] at @s run clear @s emerald 0 64"
+				      	  ]
+				       }
+          },
+          {
+       "condition": "q.is_sneaking",
+				   "run_command": {
+				    	"command": [
+            "gamerule sendcommandfeedback false",
+            "replaceitem entity @s slot.weapon.mainhand 0 bg:void_tear11",
+            "give @s emerald 64 0",
+            "gamerule sendcommandfeedback true"
+				      	  ]
+				       }
+          }
+        ]
+      }
+    }
+  }
+}
