@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bg:blaze_shot",
+      "materials": {
+         "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/blaze_shot"
+      },
+      "geometry": {
+        "default": "geometry.projectile"
+      },
+      "render_controllers": [ "controller.render.slime" ]
+    }
+  }
+}

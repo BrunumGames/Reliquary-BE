@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bg:exorcism_shot",
+      "materials": {
+         "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/exorcism_shot"
+      },
+      "geometry": {
+        "default": "geometry.projectile"
+      },
+      "render_controllers": [ "controller.render.slime" ]
+    }
+  }
+}
