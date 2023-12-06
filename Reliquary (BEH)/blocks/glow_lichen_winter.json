@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bg:glow_lichen_winter",
+    "category": "command"
+		},
+		"components": {
+     "minecraft:block_light_absorption": 0.0,    
+     "minecraft:loot": "loot_tables/blocks/glow_lichen_winter.json",  
+                  "minecraft:material_instances": {
+                "*": {
+                    "texture": "glow_lichen_winter",
+                    "render_method": "opaque"
+          }
+        },
+  "minecraft:ticking": {
+  "looping": true,
+  "range": [ 0.1, 0.1],
+  "on_tick": {
+    "event": "vein",
+    "target": "self"
+  }
+}
+		},
+		"events": {
+			"vein": {
+				"run_command": {
+					"command": [
+						"setblock ~~~ air 0 destroy"
+					]
+				}
+			}
+		}
+	}
+}

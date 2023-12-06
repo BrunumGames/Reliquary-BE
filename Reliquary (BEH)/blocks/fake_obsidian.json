@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bg:fake_obsidian"
+		},
+		"components": {
+                        "minecraft:block_light_absorption": 0.0,    
+      "minecraft:loot": "loot_tables/blocks/w.json",  
+                  "minecraft:material_instances": {
+                "*": {
+                    "texture": "fake_obsidian",
+                    "render_method": "opaque"
+          }
+        },
+			"minecraft:on_player_destroyed": {
+        "event": "lava",
+        "target": "self"
+     },
+  "minecraft:ticking": {
+  "looping": true,
+  "range": [ 4, 4],
+  "on_tick": {
+    "event": "lava",
+    "target": "self"
+  }
+}
+		},
+		"events": {
+			"lava": {
+				"run_command": {
+					"command": [
+						"setblock ~~~ flowing_lava"
+					]
+				}
+			}
+		}
+	}
+}

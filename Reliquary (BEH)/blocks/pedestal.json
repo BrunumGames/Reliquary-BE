@@ -1,0 +1,212 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bg:pedestal",
+      "category": "construction",
+      "properties": {
+        "block:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:creative_category":{
+      "category": "Construction",
+      "group": "itemGroup.name.Construction"
+      },
+      "minecraft:geometry": "geometry.pedestal",
+      "minecraft:destroy_time": 2.0,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:on_player_placing": {
+        "event": "update_rotation"
+      },
+      "minecraft:pick_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          10,
+          12,
+          10
+        ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          10,
+          12,
+          10
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pedestal",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "troca"
+      }
+    },
+    "events": {
+      "update_rotation": {
+        "set_block_property": {
+          "block:rotation": "query.cardinal_facing_2d"
+        }
+      },
+      "troca": {
+        "sequence": [
+       {
+        "condition": "query.get_equipped_item_name == 'bucket'",
+				"run_command": {
+					"command": [
+						"function pedestal_bucket2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'fortune_coin'",
+				"run_command": {
+					"command": [
+						"function pedestal_fortune_coin2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'glacial_staff'",
+				"run_command": {
+					"command": [
+						"function pedestal_glacial_staff2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'harvest_rod2'",
+				"run_command": {
+					"command": [
+						"function pedestal_harvest_rod2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'magicbane'",
+				"run_command": {
+					"command": [
+						"function pedestal_magicbane2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'mercy_cross'",
+				"run_command": {
+					"command": [
+						"function pedestal_mercy_cross2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'rending_gale2'",
+				"run_command": {
+					"command": [
+						"function pedestal_rending_gale2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'pyromancer_staff4'",
+				"run_command": {
+					"command": [
+						"function pedestal_pyromancer_staff2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'shears_of_winter'",
+				"run_command": {
+					"command": [
+						"function pedestal_shears_of_winter2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           },
+           {
+        "condition": "query.get_equipped_item_name == 'shears_of_winter2'",
+				"run_command": {
+					"command": [
+						"function pedestal_shears_of_winter2"
+			   	        	]
+			  	       },
+				   "decrement_stack": {}
+           }
+         ]
+		  	  }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}

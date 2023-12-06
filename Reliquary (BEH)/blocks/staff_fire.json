@@ -1,0 +1,43 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bg:staff_fire",
+    "category": "command"
+		},
+		"components": {                 
+    "minecraft:block_light_absorption": 0.0,    
+    "minecraft:loot": "loot_tables/blocks/w.json",
+    "minecraft:material_instances": {
+      "*": {
+      "texture": "orange_luminous_block",
+        "render_method": "opaque"
+          }
+        },
+			"minecraft:on_placed": {
+				  "event": "nada",
+				  "target": "self"
+			  },
+  "minecraft:ticking": {
+  "looping": true,
+  "range": [ 4, 4],
+  "on_tick": {
+    "event": "agua",
+    "target": "self"
+  }
+}
+		},
+		"events": {
+						"nada": {
+				"run_command": {
+					"command": [
+       "gamerule sendcommandfeedback false",
+						"execute as @e[c=1] at @s run give @p bg:pyromancer_staff",
+       "setblock ~~~ fire",
+       "gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
+	}
+}
