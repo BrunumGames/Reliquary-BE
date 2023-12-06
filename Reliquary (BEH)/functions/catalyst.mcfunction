@@ -1,0 +1,30 @@
+execute unless block ~-1 ~1 ~-1 bedrock unless block ~-1 ~1 ~-1 end_portal unless block ~-1 ~1 ~-1 end_portal_frame unless block ~-1 ~1 ~-1 portal unless block ~-1 ~1 ~-1 reinforced_deepslate run fill ~-1 ~1 ~-1 ~-1 ~1 ~-1 air destroy
+execute unless block ~-1 ~1 ~ bedrock unless block ~-1 ~1 ~ end_portal unless block ~-1 ~1 ~ end_portal_frame unless block ~-1 ~1 ~ portal unless block ~-1 ~1 ~ reinforced_deepslate run fill ~-1 ~1 ~ ~-1 ~1 ~ air destroy
+execute unless block ~-1 ~1 ~1 bedrock unless block ~-1 ~1 ~1 end_portal unless block ~-1 ~1 ~1 end_portal_frame unless block ~-1 ~1 ~1 portal unless block ~-1 ~1 ~1 reinforced_deepslate run fill ~-1 ~1 ~1 ~-1 ~1 ~1 air destroy
+execute unless block ~ ~1 ~-1 bedrock unless block ~ ~1 ~-1 end_portal unless block ~ ~1 ~-1 end_portal_frame unless block ~ ~1 ~-1 portal unless block ~ ~1 ~-1 reinforced_deepslate run fill ~ ~1 ~-1 ~ ~1 ~-1 air destroy
+execute unless block ~ ~1 ~ bedrock unless block ~ ~1 ~ end_portal unless block ~ ~1 ~ end_portal_frame unless block ~ ~1 ~ portal unless block ~ ~1 ~ reinforced_deepslate run fill ~ ~1 ~ ~ ~1 ~ air destroy
+execute unless block ~ ~1 ~1 bedrock unless block ~ ~1 ~1 end_portal unless block ~ ~1 ~1 end_portal_frame unless block ~ ~1 ~1 portal unless block ~ ~1 ~1 reinforced_deepslate run fill ~ ~1 ~1 ~ ~1 ~1 air destroy
+execute unless block ~1 ~1 ~-1 bedrock unless block ~1 ~1 ~-1 end_portal unless block ~1 ~1 ~-1 end_portal_frame unless block ~1 ~1 ~-1 portal unless block ~1 ~1 ~-1 reinforced_deepslate run fill ~1 ~1 ~-1 ~1 ~1 ~-1 air destroy
+execute unless block ~1 ~1 ~ bedrock unless block ~1 ~1 ~ end_portal unless block ~1 ~1 ~ end_portal_frame unless block ~1 ~1 ~ portal unless block ~1 ~1 ~ reinforced_deepslate run fill ~1 ~1 ~ ~1 ~1 ~ air destroy
+execute unless block ~1 ~1 ~1 bedrock unless block ~1 ~1 ~1 end_portal unless block ~1 ~1 ~1 end_portal_frame unless block ~1 ~1 ~1 portal unless block ~1 ~1 ~1 reinforced_deepslate run fill ~1 ~1 ~1 ~1 ~1 ~1 air destroy
+execute unless block ~-1 ~ ~-1 bedrock unless block ~-1 ~ ~-1 end_portal unless block ~-1 ~ ~-1 end_portal_frame unless block ~-1 ~ ~-1 portal unless block ~-1 ~ ~-1 reinforced_deepslate run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute unless block ~-1 ~ ~ bedrock unless block ~-1 ~ ~ end_portal unless block ~-1 ~ ~ end_portal_frame unless block ~-1 ~ ~ portal unless block ~-1 ~ ~ reinforced_deepslate run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute unless block ~-1 ~ ~1 bedrock unless block ~-1 ~ ~1 end_portal unless block ~-1 ~ ~1 end_portal_frame unless block ~-1 ~ ~1 portal unless block ~-1 ~ ~1 reinforced_deepslate run fill ~-1 ~ ~1 ~-1 ~ ~-1 air destroy
+execute unless block ~ ~ ~-1 bedrock unless block ~ ~ ~-1 end_portal unless block ~ ~ ~-1 end_portal_frame unless block ~ ~ ~-1 portal unless block ~ ~ ~-1 reinforced_deepslate run fill ~ ~ ~-1 ~ ~ ~1 air destroy
+execute unless block ~ ~ ~ bedrock unless block ~ ~ ~ end_portal unless block ~ ~ ~ end_portal_frame unless block ~ ~ ~ portal unless block ~ ~ ~ reinforced_deepslate run fill ~ ~ ~ ~ ~ ~ air destroy
+execute unless block ~ ~ ~1 bedrock unless block ~ ~ ~1 end_portal unless block ~ ~ ~1 end_portal_frame unless block ~ ~ ~1 portal unless block ~ ~ ~1 reinforced_deepslate run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute unless block ~1 ~ ~-1 bedrock unless block ~1 ~ ~-1 end_portal unless block ~1 ~ ~-1 end_portal_frame unless block ~1 ~ ~-1 portal unless block ~1 ~ ~-1 reinforced_deepslate run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute unless block ~1 ~ ~ bedrock unless block ~1 ~ ~ end_portal unless block ~1 ~ ~ end_portal_frame unless block ~1 ~ ~ portal unless block ~1 ~ ~ reinforced_deepslate run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute unless block ~1 ~ ~1 bedrock unless block ~1 ~ ~1 end_portal unless block ~1 ~ ~1 end_portal_frame unless block ~1 ~ ~1 portal unless block ~1 ~ ~1 reinforced_deepslate run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute unless block ~-1 ~-1 ~-1 bedrock unless block ~-1 ~-1 ~-1 end_portal unless block ~-1 ~-1 ~-1 end_portal_frame unless block ~-1 ~-1 ~-1 portal unless block ~-1 ~-1 ~-1 reinforced_deepslate run fill ~-1 ~-1 ~-1 ~-1 ~-1 ~-1 air destroy
+execute unless block ~-1 ~-1 ~ bedrock unless block ~-1 ~-1 ~ end_portal unless block ~-1 ~-1 ~ end_portal_frame unless block ~-1 ~-1 ~ portal unless block ~-1 ~-1 ~ reinforced_deepslate run fill ~-1 ~-1 ~ ~-1 ~-1 ~ air destroy
+execute unless block ~-1 ~-1 ~1 bedrock unless block ~-1 ~-1 ~1 end_portal unless block ~-1 ~-1 ~1 end_portal_frame unless block ~-1 ~-1 ~1 portal unless block ~-1 ~-1 ~1 reinforced_deepslate run fill ~-1 ~-1 ~1 ~-1 ~-1 ~1 air destroy
+execute unless block ~ ~-1 ~-1 bedrock unless block ~ ~-1 ~-1 end_portal unless block ~ ~-1 ~-1 end_portal_frame unless block ~ ~-1 ~-1 portal unless block ~ ~-1 ~-1 reinforced_deepslate run fill ~ ~-1 ~-1 ~ ~-1 ~-1 air destroy
+execute unless block ~ ~-1 ~ bedrock unless block ~ ~-1 ~ end_portal unless block ~ ~-1 ~ end_portal_frame unless block ~ ~-1 ~ portal unless block ~ ~-1 ~ reinforced_deepslate run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute unless block ~ ~-1 ~1 bedrock unless block ~ ~-1 ~1 end_portal unless block ~ ~-1 ~1 end_portal_frame unless block ~ ~-1 ~1 portal unless block ~ ~-1 ~1 reinforced_deepslate run fill ~ ~-1 ~1 ~ ~-1 ~1 air destroy
+execute unless block ~1 ~-1 ~-1 bedrock unless block ~1 ~-1 ~-1 end_portal unless block ~1 ~-1 ~-1 end_portal_frame unless block ~1 ~-1 ~-1 portal unless block ~1 ~-1 ~-1 reinforced_deepslate run fill ~1 ~-1 ~-1 ~1 ~-1 ~-1 air destroy
+execute unless block ~1 ~-1 ~ bedrock unless block ~1 ~-1 ~ end_portal unless block ~1 ~-1 ~ end_portal_frame unless block ~1 ~-1 ~ portal unless block ~1 ~-1 ~ reinforced_deepslate run fill ~1 ~-1 ~ ~1 ~-1 ~ air destroy
+execute unless block ~1 ~-1 ~1 bedrock unless block ~1 ~-1 ~1 end_portal unless block ~1 ~-1 ~1 end_portal_frame unless block ~1 ~-1 ~1 portal unless block ~1 ~-1 ~1 reinforced_deepslate run fill ~1 ~-1 ~1 ~1 ~-1 ~1 air destroy
+give @p bg:destruction_catalyst
+playsound ambient.weather.lightning.impact @p
+particle minecraft:large_explosion ~~~
