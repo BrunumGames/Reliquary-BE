@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome8_gt4ef6gy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cobblestone",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:alkahestry_tome8",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:cobblestone",
+      "count": 33
+      },
+      {
+      "item":"bg:alkahestry_tome4",
+      "count": 1
+      }
+    ]
+  }
+}

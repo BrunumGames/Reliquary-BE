@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "void_tear6_jy5es5gy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:void_tear6",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:empty_void_tear",
+      "count": 1,
+      "data": 0
+      }
+   }
+}

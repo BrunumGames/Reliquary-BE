@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome64_sdy7hibj"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:alkahestry_tome64",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:gold_ingot",
+      "count": 2
+      },
+      {
+      "item":"bg:alkahestry_tome32",
+      "count": 1
+      }
+    ]
+  }
+}

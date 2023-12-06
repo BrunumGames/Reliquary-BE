@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "exorcism_bullet_jt4so6gj"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:bullet",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:zombie_heart",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:exorcism_bullet",
+      "count": 8,
+      "data": 0
+    }
+  }
+}

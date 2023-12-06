@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome64_hyex56vy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:dye",
+        "data": 4
+      },
+      "B": {
+        "item": "bg:alkahestry_tome64",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:dye",
+      "count": 9,
+      "data": 4
+      },
+      {
+      "item":"bg:alkahestry_tome32",
+      "count": 1
+      }
+    ]
+  }
+}

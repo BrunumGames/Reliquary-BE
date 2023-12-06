@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome32_u5dgr6gh"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:soul_sand",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:alkahestry_tome32",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:soul_sand",
+      "count": 25
+      },
+      {
+      "item":"bg:alkahestry_tome8",
+      "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "buster_bullet_jy5ef6gi"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:concussive_bullet",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:catalyzing_gland",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:buster_bullet",
+      "count": 8,
+      "data": 0
+    }
+  }
+}
