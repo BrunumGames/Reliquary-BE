@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "empty_infernal_tear_f54oyi5f"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:empty_void_tear",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:witch_hat",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:molten_core",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:infernal_claw",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:empty_infernal_tear",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

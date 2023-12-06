@@ -1,0 +1,44 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mercy_cross_ku4fiufb"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ABC",
+      "BFB",
+      "DBE"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:withered_rib",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:rib_bone",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:skull",
+        "data": 1
+      },
+      "E": {
+        "item": "bg:zombie_heart",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:leather",
+        "data": 0
+      }
+    },
+    "result":{
+      "item":"bg:mercy_cross",
+      "count": 1
+      }
+   }
+}

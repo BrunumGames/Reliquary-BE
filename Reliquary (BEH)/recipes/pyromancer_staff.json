@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pyromancer_staff_j75duyhj"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:infernal_claws",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:blaze_rod",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:infernal_tear",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:salamander_eye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:pyromancer_staff",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wraith_node_i6rgyfgh"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:nebulous_heart",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:emerald",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:wraith_node",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

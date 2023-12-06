@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "crimson_cloth_gre8dyth"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wool",
+        "data": 14
+      },
+      "B": {
+        "item": "minecraft:wool",
+        "data": 15
+      },
+      "C": {
+        "item": "bg:nebulous_heart",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:crimson_cloth",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

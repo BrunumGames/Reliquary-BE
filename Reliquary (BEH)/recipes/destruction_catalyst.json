@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "destruction_catalyst_jt3d76hi"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:flint_and_steel",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:molten_core",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:catalyzing_gland",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:infernal_tear",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:destruction_catalyst",
+      "count": 1,
+      "data": 0
+    }
+  }
+}
