@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:crimson_cloth",
+        "category": "items"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "crimson_cloth"
+    },
+    "minecraft:max_stack_size": 64,
+    "minecraft:render_offsets": "item"
+      }
+   }
+}
