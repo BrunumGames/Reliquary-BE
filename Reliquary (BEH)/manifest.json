@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Feito por Brunum Games",
+    "name": "Reliquary Reincarnations Addon (BP)",
+    "uuid": "9d54d047-7b3d-4405-b8f5-8250742507cf",
+    "version": [
+      3,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "description": "Feito por Brunum Games",
+      "type": "data",
+      "uuid": "78e0886f-eed7-4692-9e50-bce5273a3570",
+      "version": [
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "bdecaa59-0053-4d0e-9de6-6b98d001aa39",
+      "version": [
+        3,
+        0,
+        0
+      ]
+    }
+  ]
+}
