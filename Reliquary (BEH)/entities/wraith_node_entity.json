@@ -1,0 +1,95 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "bg:wraith_node_entity",
+        "is_spawnable": false,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "component_groups": {
+        "despawn": {
+            "minecraft:instant_despawn": {
+                "remove_child_entities": false
+            }
+        }
+      },
+      "components": {
+      "minecraft:type_family": {
+          "family": [ "mob", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+              "height": 0,
+              "width": 0
+          },
+          "minecraft:custom_hit_test": {
+              "hitboxes": [
+                  {
+                      "width": 1,
+                      "height": 0.25,
+                      "pivot": [0, 0.2, 0]
+                  }
+              ]
+          },
+      "minecraft:health": {
+          "value": 1
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:damage_sensor": {
+          "triggers": {
+              "cause": "all",
+              "deals_damage": false
+          }
+      },
+        "minecraft:timer": {
+              "time": 0.1,
+              "looping": true,
+              "time_down_event": {
+               "event": "tick",
+                "target": "self"
+              }
+          },
+      "minecraft:inside_block_notifier": {
+          "block_list": [
+              {
+                  "block": "bg:wraith_node",
+                  "exited_block_event": {
+                      "event": "destroy",
+                      "target": "self"
+                      }
+                  }
+              ]
+          }
+      },
+      "events": {
+          "destroy": {
+            "filters": [
+                {
+                    "test": "has_component",
+                    "subject": "self",
+                    "operator": "!=",
+                    "value": "minecraft:instant_despawn"
+                }
+            ],
+              "run_command": {
+                  "command": "kill @s"
+                  }
+              },
+          "despawn": {
+            "add": {
+                "component_groups": [
+                    "despawn"
+                ]
+            }
+          },
+          "tick": {
+            "run_command": {
+                "command": [
+                  "function scrapper"
+              ]
+            }
+          }
+        }
+      }
+  }
+  
