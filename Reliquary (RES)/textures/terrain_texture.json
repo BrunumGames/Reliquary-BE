@@ -1,0 +1,80 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "wraith_node": {
+      "textures": "textures/blocks/wraith_node"
+    },
+    "fake_ice": {
+      "textures": "textures/blocks/fake_ice"
+    },
+    "fake_obsidian": {
+      "textures": "textures/blocks/fake_obsidian"
+    },
+    "alkahestry_altar": {
+      "textures": "textures/blocks/alkahestry_altar"
+    },
+    "idle_alkahestry_altar": {
+      "textures": "textures/blocks/idle_alkahestry_altar"
+    },
+    "interdiction_torch": {
+      "textures": "textures/blocks/interdiction_torch"
+    },
+    "pedestal": {
+      "textures": "textures/blocks/pedestal"
+    },
+    "pedestal_bucket": {
+      "textures": "textures/blocks/pedestal_bucket"
+    },
+    "pedestal_diamond": {
+      "textures": "textures/blocks/pedestal_diamond"
+    },
+    "pedestal_disc5": {
+      "textures": "textures/blocks/pedestal_disc5"
+    },
+    "pedestal_milk_bucket": {
+      "textures": "textures/blocks/pedestal_milk_bucket"
+    },
+    "pedestal_fortune_coin": {
+      "textures": "textures/blocks/pedestal_fortune_coin"
+    },
+    "pedestal_glacial_staff": {
+      "textures": "textures/blocks/pedestal_glacial_staff"
+    },
+    "pedestal_harvest_rod": {
+      "textures": "textures/blocks/pedestal_harvest_rod"
+    },
+    "pedestal_heart_of_sea": {
+      "textures": "textures/blocks/pedestal_heart_of_sea"
+    },
+    "pedestal_magicbane": {
+      "textures": "textures/blocks/pedestal_magicbane"
+    },
+    "pedestal_mercy_cross": {
+      "textures": "textures/blocks/pedestal_mercy_cross"
+    },
+    "pedestal_nether_star": {
+      "textures": "textures/blocks/pedestal_nether_star"
+    },
+    "pedestal_netherite": {
+      "textures": "textures/blocks/pedestal_netherite"
+    },
+    "pedestal_pigstep": {
+      "textures": "textures/blocks/pedestal_pigstep"
+    },
+    "pedestal_pyromancer_staff": {
+      "textures": "textures/blocks/pedestal_pyromancer_staff"
+    },
+    "pedestal_rending_gale": {
+      "textures": "textures/blocks/pedestal_rending_gale"
+    },
+    "pedestal_shears_of_winter": {
+      "textures": "textures/blocks/pedestal_shears_of_winter"
+    },
+    "pedestal_totem_of_undying": {
+      "textures": "textures/blocks/pedestal_totem_of_undying"
+    }
+  }
+}

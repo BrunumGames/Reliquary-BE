@@ -1,0 +1,249 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "alkahestry_tome": {
+      "textures": "textures/items/alkahestry_tome"
+    },
+    "alkahestry_tome4": {
+      "textures": "textures/items/alkahestry_tome4"
+    },
+    "alkahestry_tome8": {
+      "textures": "textures/items/alkahestry_tome8"
+    },
+    "alkahestry_tome32": {
+      "textures": "textures/items/alkahestry_tome32"
+    },
+    "alkahestry_tome64": {
+      "textures": "textures/items/alkahestry_tome64"
+    },
+    "alkahestry_tome256": {
+      "textures": "textures/items/alkahestry_tome256"
+    },
+    "angelic_feather": {
+      "textures": "textures/items/angelic_feather"
+    },
+    "barrel_assembly": {
+      "textures": "textures/items/barrel_assembly"
+    },
+    "bat_wing": {
+      "textures": "textures/items/bat_wing"
+    },
+    "bullet": {
+      "textures": "textures/items/bullet"
+    },
+    "bullet_blaze": {
+      "textures": "textures/items/bullet_blaze"
+    },
+    "bullet_buster": {
+      "textures": "textures/items/bullet_buster"
+    },
+    "bullet_concussive": {
+      "textures": "textures/items/bullet_concussive"
+    },
+    "bullet_ender": {
+      "textures": "textures/items/bullet_ender"
+    },
+    "bullet_exorcism": {
+      "textures": "textures/items/bullet_exorcism"
+    },
+    "bullet_sand": {
+      "textures": "textures/items/bullet_sand"
+    },
+    "bullet_seeker": {
+      "textures": "textures/items/bullet_seeker"
+    },
+    "bullet_storm": {
+      "textures": "textures/items/bullet_storm"
+    },
+    "catalyzing_gland": {
+      "textures": "textures/items/catalyzing_gland"
+    },
+    "chelicerae": {
+      "textures": "textures/items/chelicerae"
+    },
+    "crimson_cloth": {
+      "textures": "textures/items/crimson_cloth"
+    },
+    "destruction_catalyst": {
+      "textures": "textures/items/destruction_catalyst"
+    },
+    "emperor_chalice": {
+      "textures": "textures/items/emperor_chalice"
+    },
+    "empty_bullet": {
+      "textures": "textures/items/empty_bullet"
+    },
+    "empty_infernal_tear": {
+      "textures": "textures/items/empty_infernal_tear"
+    },
+    "empty_magazine": {
+      "textures": "textures/items/empty_magazine"
+    },
+    "empty_void_tear": {
+      "textures": "textures/items/empty_void_tear"
+    },
+    "ender_staff": {
+      "textures": "textures/items/ender_staff"
+    },
+    "eye_of_the_storm": {
+      "textures": "textures/items/eye_of_the_storm"
+    },
+    "fertile_essence": {
+      "textures": "textures/items/fertile_essence"
+    },
+    "fertile_potion": {
+      "textures": "textures/items/fertile_potion"
+    },
+    "fortune_coin": {
+      "textures": "textures/items/fortune_coin"
+    },
+    "frozen_core": {
+      "textures": "textures/items/frozen_core"
+    },
+    "glacial_staff": {
+      "textures": "textures/items/glacial_staff"
+    },
+    "glowing_bread": {
+      "textures": "textures/items/glowing_bread"
+    },
+    "glowing_water": {
+      "textures": "textures/items/glowing_water"
+    },
+    "grip_assembly": {
+      "textures": "textures/items/grip_assembly"
+    },
+    "guardian_spike": {
+      "textures": "textures/items/guardian_spike"
+    },
+    "hammer_assembly": {
+      "textures": "textures/items/hammer_assembly"
+    },
+    "handgun_item": {
+      "textures": "textures/items/handgun_item"
+    },
+    "harvest_rod": {
+      "textures": "textures/items/harvest_rod"
+    },
+    "hero_medallion": {
+      "textures": "textures/items/hero_medallion"
+    },
+    "holy_hand_grenade": {
+      "textures": "textures/items/holy_hand_grenade"
+    },
+    "ice_magus_rod": {
+      "textures": "textures/items/ice_magus_rod"
+    },
+    "infernal_chalice": {
+      "textures": "textures/items/infernal_chalice"
+    },
+    "infernal_claw": {
+      "textures": "textures/items/infernal_claw"
+    },
+    "infernal_claws": {
+      "textures": "textures/items/infernal_claws"
+    },
+    "infernal_tear": {
+      "textures": "textures/items/infernal_tear"
+    },
+    "interdiction_torch_item": {
+      "textures": "textures/items/interdiction_torch_item"
+    },
+    "kraken_shell_fragment": {
+      "textures": "textures/items/kraken_shell_fragment"
+    },
+    "kraken_shell": {
+      "textures": "textures/items/kraken_shell"
+    },
+    "lantern_of_paranoia": {
+      "textures": "textures/items/lantern_of_paranoia"
+    },
+    "magazine": {
+      "textures": "textures/items/magazine"
+    },
+    "magazine_blaze": {
+      "textures": "textures/items/magazine_blaze"
+    },
+    "magazine_buster": {
+      "textures": "textures/items/magazine_buster"
+    },
+    "magazine_concussive": {
+      "textures": "textures/items/magazine_concussive"
+    },
+    "magazine_ender": {
+      "textures": "textures/items/magazine_ender"
+    },
+    "magazine_exorcism": {
+      "textures": "textures/items/magazine_exorcism"
+    },
+    "magazine_sand": {
+      "textures": "textures/items/magazine_sand"
+    },
+    "magazine_seeker": {
+      "textures": "textures/items/magazine_seeker"
+    },
+    "magazine_storm": {
+      "textures": "textures/items/magazine_storm"
+    },
+    "magicbane": {
+      "textures": "textures/items/magicbane"
+    },
+    "mercy_cross": {
+      "textures": "textures/items/mercy_cross"
+    },
+    "midas_touchstone": {
+      "textures": "textures/items/midas_touchstone"
+    },
+    "molten_core": {
+      "textures": "textures/items/molten_core"
+    },
+    "nebulous_heart": {
+      "textures": "textures/items/nebulous_heart"
+    },
+    "pyromancer_staff": {
+      "textures": "textures/items/pyromancer_staff"
+    },
+    "rending_gale": {
+      "textures": "textures/items/rending_gale"
+    },
+    "rib_bone": {
+      "textures": "textures/items/rib_bone"
+    },
+    "salamander_eye": {
+      "textures": "textures/items/salamander_eye"
+    },
+    "serpent_staff": {
+      "textures": "textures/items/serpent_staff"
+    },
+    "shears_of_winter": {
+      "textures": "textures/items/shears_of_winter"
+    },
+    "slime_pearl": {
+      "textures": "textures/items/slime_pearl"
+    },
+    "sojourner_staff": {
+      "textures": "textures/items/sojourner_staff"
+    },
+    "squid_beak": {
+      "textures": "textures/items/squid_beak"
+    },
+    "twilight_cloak": {
+      "textures": "textures/items/twilight_cloak"
+    },
+    "void_tear": {
+      "textures": "textures/items/void_tear"
+    },
+    "witch_hat": {
+      "textures": "textures/items/witch_hat"
+    },
+    "withered_rib": {
+      "textures": "textures/items/withered_rib"
+    },
+    "witherless_rose": {
+      "textures": "textures/items/witherless_rose"
+    },
+    "zombie_heart": {
+      "textures": "textures/items/zombie_heart"
+    }
+  }
+}
