@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Original mod by P3pp3rF1y. Port by Brunum",
+    "name": "Reliquary Reincarnations Addon (BEH)",
+    "uuid": "9d54d047-7b3d-4405-b8f5-8250742507cf",
+    "version": [
+      3,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "Original mod by P3pp3rF1y. Port by Brunum",
+      "type": "data",
+      "uuid": "78e0886f-eed7-4692-9e50-bce5273a3570",
+      "version": [
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "JSON",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "80b49968-1721-4856-a8ef-4e8c1f871a25",
+      "version": [1, 1, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+	 "capabilities": [ "script_eval"],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.9.0-beta"
+    }
+  ]
+}
