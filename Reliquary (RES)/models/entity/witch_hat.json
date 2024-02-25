@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"geometry.witch_hat": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 2, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 22, 0]
+			},
+			{
+				"name": "head2",
+				"parent": "head",
+				"pivot": [0, 22, 0],
+				"cubes": [
+					{"origin": [-5, 29, -5], "size": [10, 2, 10], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "head3",
+				"parent": "head",
+				"pivot": [0, 31, 0],
+				"rotation": [-5, 0, 5],
+				"cubes": [
+					{"origin": [-3, 30, -3], "size": [7, 4, 7], "uv": [0, 12]}
+				]
+			},
+			{
+				"name": "head4",
+				"parent": "head",
+				"pivot": [2, 36, 2],
+				"rotation": [-25, 0, 15],
+				"cubes": [
+					{"origin": [0.9, 35, 1.5], "size": [2, 4, 2], "uv": [4, 25]}
+				]
+			},
+			{
+				"name": "head5",
+				"parent": "head",
+				"pivot": [1, 33, -1],
+				"rotation": [-15, 0, 7.5],
+				"cubes": [
+					{"origin": [-1, 33, -1], "size": [4, 4, 4], "uv": [0, 23]}
+				]
+			}
+		]
+	}
+}

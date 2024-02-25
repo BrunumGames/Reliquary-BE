@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.handgun_shot",
+				"texture_width": 4,
+				"texture_height": 4,
+				"visible_bounds_width": 0,
+				"visible_bounds_height": 0,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 0, 0], "size": [4, 4, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

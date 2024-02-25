@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bg:storm_shot",
+      "materials": {
+         "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/storm_shot"
+      },
+      "geometry": {
+        "default": "geometry.handgun_shot"
+      },
+      "render_controllers": [ "controller.render.slime" ]
+    }
+  }
+}

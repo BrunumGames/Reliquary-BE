@@ -1,0 +1,17 @@
+{
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "custom.handgun_load" : {
+         "category" : "player",
+         "sounds" : [
+            "sounds/handgun_load"
+         ]
+      },
+      "custom.handgun_shot" : {
+         "category" : "player",
+         "sounds" : [
+            "sounds/handgun_shot"
+         ]
+      }
+   }
+}

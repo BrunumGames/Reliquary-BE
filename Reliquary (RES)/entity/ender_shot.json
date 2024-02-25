@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bg:ender_shot",
+      "materials": {
+         "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/ender_shot"
+      },
+      "geometry": {
+        "default": "geometry.handgun_shot"
+      },
+      "render_controllers": [ "controller.render.slime" ]
+    }
+  }
+}
