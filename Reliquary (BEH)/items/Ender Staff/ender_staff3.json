@@ -1,0 +1,47 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:ender_staff3",
+      "category": "command"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:icon": {
+        "texture": "ender_staff"
+      },
+      "minecraft:cooldown": {
+        "category": "ender_staff",
+        "duration": 2
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "pearl"
+        }
+      }
+    },
+    "events": {
+      "pearl": {
+        "sequence": [
+          {
+          "condition": "!q.is_sneaking",
+           "shoot": {
+             "projectile": "ender_pearl",
+          "launch_power": 3.0
+            }
+          },
+          {
+         "condition": "!q.is_sneaking",
+          "run_command": {
+				    	   "command": [
+               "tag @s add ender_staff_cooldown"
+				         ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

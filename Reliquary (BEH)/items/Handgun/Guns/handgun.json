@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:handgun",
+        "category": "equipment"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			 "minecraft:icon": {
+      "texture": "handgun_item"
+    },
+    "minecraft:cooldown": {
+      "category": "handgun",
+      "duration": 1
+    },
+    "minecraft:max_stack_size": 1,
+    "minecraft:render_offsets": "item"
+      }
+   }
+}

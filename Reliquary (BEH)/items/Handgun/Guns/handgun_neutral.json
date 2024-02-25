@@ -1,0 +1,48 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:handgun_neutral",
+      "category": "command"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:icon": {
+        "texture": "handgun_item"
+      },
+      "minecraft:cooldown": {
+        "category": "handgun",
+        "duration": 1
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "handgun"
+        }
+      }
+    },
+    "events": {
+      "handgun": {
+        "sequence": [
+          {
+           "shoot": {
+             "projectile": "bg:neutral_shot",
+          "launch_power": 2.0
+            }
+          },
+          {
+          "run_command": {
+				    	   "command": [
+               "gamerule sendcommandfeedback false",
+               "give @s bg:empty_bullet",
+               "tag @s add handgun_cooldown",
+               "gamerule sendcommandfeedback true"
+				         ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
