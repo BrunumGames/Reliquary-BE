@@ -1,0 +1,47 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:sojourner_staff2",
+      "category": "command"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:icon": {
+        "texture": "sojourner_staff"
+      },
+      "minecraft:cooldown": {
+        "category": "sojourner_staff",
+        "duration": 2
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "sojourner"
+        }
+      }
+    },
+    "events": {
+      "sojourner": {
+        "sequence": [
+          {
+         "condition": "!q.is_sneaking",
+           "shoot": {
+             "projectile": "bg:torch_entity",
+          "launch_power": 1.0
+            }
+          },
+          {
+         "condition": "!q.is_sneaking",
+          "run_command": {
+				    	   "command": [
+               "tag @s add sojourner_staff_cooldown"
+				         ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

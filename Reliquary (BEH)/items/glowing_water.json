@@ -1,0 +1,30 @@
+{
+  "format_version": "1.19.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:glowing_water",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": false,
+      "minecraft:icon": {
+        "texture": "glowing_water"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "on_use_event"
+        }
+      }
+    },
+    "events": {
+      "on_use_event": {
+           "shoot": {
+             "projectile": "bg:glowing_water_entity",
+          "launch_power": 1.0
+        }, "decrement_stack": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:item": {
+      "description": {
+        "identifier": "bg:ice_magus_rod",
+        "category": "equipment"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+			"minecraft:icon": {
+      "texture": "ice_magus_rod"
+    },
+    "minecraft:on_use": {
+      "on_use": {
+        "event": "ice"
+      }
+    },
+    "minecraft:max_stack_size": 1,
+    "minecraft:render_offsets": "item"
+      },
+    "events": {
+      "ice": {
+				   "run_command": {
+				    	"command": [ 
+            "execute as @s[hasitem={item=snowball}] at @s run tag @s add snowball"
+				      	  ]
+				       }
+         }
+      }
+   }
+}

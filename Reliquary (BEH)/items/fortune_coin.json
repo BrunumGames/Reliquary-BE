@@ -1,0 +1,46 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bg:fortune_coin",
+        "category": "equipment"
+    },
+    "components": {
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.blocks"
+    },
+    "minecraft:max_stack_size": 1,
+    "minecraft:icon": {
+      "texture": "fortune_coin"
+    },
+    "minecraft:on_use": {
+      "on_use": {
+        "event": "coin"
+        }
+      }
+    },
+    "events": {
+      "coin": {
+      "sequence": [
+      {
+      "condition": "q.is_sneaking",
+				   "run_command": {
+				    	"command": [ 
+            "replaceitem entity @s slot.weapon.mainhand 0 bg:fortune_coin2"
+				      	  ]
+				      }
+        },
+        {
+      "condition": "!q.is_sneaking",
+				   "run_command": {
+				    	"command": [
+            "tp @e[type=item, r=15] ~~~",
+            "tp @e[type=xp_orb, r=15] ~~~"
+				       	   ]
+				        }
+          }
+        ]
+      }
+    }
+  }
+}

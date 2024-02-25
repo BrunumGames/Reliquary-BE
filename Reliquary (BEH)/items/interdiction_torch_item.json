@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+       "identifier": "bg:interdiction_torch_item",
+       "category": "items"
+     },
+     "components": {
+     "minecraft:creative_category": {
+       "parent": "itemGroup.name.blocks"
+     },
+     "minecraft:block_placer": {
+       "block": "bg:interdiction_torch"
+     },
+			 "minecraft:icon": {
+       "texture": "interdiction_torch_item"
+     },
+     "minecraft:render_offsets": "item"
+      }
+   }
+}
