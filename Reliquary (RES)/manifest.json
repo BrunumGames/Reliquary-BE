@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "Original mod by P3pp3rF1y. Port by Brunum",
+    "name": "Reliquary Reincarnations Addon (RES)",
+    "uuid": "bdecaa59-0053-4d0e-9de6-6b98d001aa39",
+    "version": [
+      3,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Original mod by P3pp3rF1y. Port by Brunum",
+      "type": "resources",
+      "uuid": "a55eb651-dada-4d59-91ae-e2737a2bd89c",
+      "version": [
+        3,
+        0,
+        0
+      ]
+    }
+  ]
+}

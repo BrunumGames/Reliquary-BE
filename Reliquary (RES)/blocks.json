@@ -1,0 +1,103 @@
+{
+  "wraith_node": {
+    "textures": "wraith_node",
+    "sound": "stone"
+  },
+  "fake_ice": {
+    "textures": "fake_ice",
+    "sound": "glass"
+  },
+  "fake_obsidian": {
+    "textures": "fake_obsidian",
+    "sound": "stone"
+  },
+  "alkahestry_altar": {
+    "textures": "alkahestry_altar",
+    "sound": "stone"
+  },
+  "idle_alkahestry_altar": {
+    "textures": "idle_alkahestry_altar",
+    "sound": "stone"
+  },
+  "interdiction_torch": {
+    "textures": "interdiction_torch",
+    "sound": "normal"
+  },
+  "pedestal": {
+    "textures": "pedestal",
+    "sound": "stone"
+  },
+  "pedestal_bucket": {
+    "textures": "pedestal_bucket",
+    "sound": "stone"
+  },
+  "pedestal_diamond": {
+    "textures": "pedestal_diamond",
+    "sound": "stone"
+  },
+  "pedestal_disc5": {
+    "textures": "pedestal_disc5",
+    "sound": "stone"
+  },
+  "pedestal_milk_bucket": {
+    "textures": "pedestal_milk_bucket",
+    "sound": "stone"
+  },
+  "pedestal_fortune_coin": {
+    "textures": "pedestal_fortune_coin",
+    "sound": "stone"
+  },
+  "pedestal_glacial_staff": {
+    "textures": "pedestal_glacial_staff",
+    "sound": "stone"
+  },
+  "pedestal_harvest_rod": {
+    "textures": "pedestal_harvest_rod",
+    "sound": "stone"
+  },
+  "pedestal_heart_of_sea": {
+    "textures": "pedestal_heart_of_sea",
+    "sound": "stone"
+  },
+  "pedestal_magicbane": {
+    "textures": "pedestal_magicbane",
+    "sound": "stone"
+  },
+  "pedestal_mercy_cross": {
+    "textures": "pedestal_mercy_cross",
+    "sound": "stone"
+  },
+  "pedestal_nether_star": {
+    "textures": "pedestal_nether_star",
+    "sound": "stone"
+  },
+  "pedestal_netherite": {
+    "textures": "pedestal_netherite",
+    "sound": "stone"
+  },
+  "pedestal_pigstep": {
+    "textures": "pedestal_pigstep",
+    "sound": "stone"
+  },
+  "pedestal_pyromancer_staff": {
+    "textures": "pedestal_pyromancer_staff",
+    "sound": "stone"
+  },
+  "pedestal_rending_gale": {
+    "textures": "pedestal_rending_gale",
+    "sound": "stone"
+  },
+  "pedestal_shears_of_winter": {
+    "textures": "pedestal_shears_of_winter",
+    "sound": "stone"
+  },
+  "pedestal_totem_of_undying": {
+    "textures": "pedestal_totem_of_undying",
+    "sound": "stone"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}
