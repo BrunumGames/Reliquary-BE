@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "glowing_bread_yrfyr7gy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bread",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:glowing_water",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:glowing_bread",
+      "count": 3,
+      "data": 0
+    }
+  }
+}

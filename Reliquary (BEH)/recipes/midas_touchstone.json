@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "midas_touchstone_ju5rv7hi"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "D D",
+      "BBB",
+      "CAC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:anvil",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:molten_core",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:catalyzing_gland",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:midas_touchstone",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

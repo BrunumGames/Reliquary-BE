@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "kraken_shell_fragment_nyr7etug"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:squid_beak",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:slime_pearl",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:kraken_shell_fragment",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

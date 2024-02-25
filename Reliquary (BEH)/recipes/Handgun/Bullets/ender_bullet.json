@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ender_bullet_vy6rxyhj"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:seeker_bullet",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:nebulous_heart",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:ender_bullet",
+      "count": 8,
+      "data": 0
+    }
+  }
+}

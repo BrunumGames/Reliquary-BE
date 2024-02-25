@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "harvest_rod_ku5futhi"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " AC",
+      "EDA",
+      "BE "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:double_plant",
+        "data": 4
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:fertile_essence",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:empty_void_tear",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:vine",
+        "data": 0
+      }
+    },
+    "result": {
+      "item":"bg:harvest_rod",
+      "count": 1
+      }
+   }
+}

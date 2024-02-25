@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infernal_claws_gr7sf9yg"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:infernal_claw",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:slime_pearl",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:infernal_claws",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "holy_hand_grenade_ny5efycv"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:glowing_water",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:gold_nugget",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:tnt",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:catalyzing_gland",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:holy_hand_grenade",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

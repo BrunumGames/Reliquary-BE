@@ -1,0 +1,45 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "glowing_water_gr8gir7g"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DAE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:glass_pane"
+      },
+      "B": {
+        "item": "minecraft:bucket",
+        "data": 8
+      },
+      "C": {
+        "item": "minecraft:glowstone_dust",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:nether_wart",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"bg:glowing_water",
+      "count": 1
+      },
+      {
+      "item":"minecraft:bucket",
+      "count": 1
+      }
+    ]
+  }
+}

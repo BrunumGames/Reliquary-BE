@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sand_bullet_jy5ey7gy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sandstone",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:slime_ball",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:gold_nugget",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:sand_bullet",
+      "count": 8,
+      "data": 0
+    }
+  }
+}

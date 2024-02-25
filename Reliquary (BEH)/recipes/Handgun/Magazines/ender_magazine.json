@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ender_magazine_by5df6gu"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:empty_magazine",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:ender_bullet",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:ender_magazine",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

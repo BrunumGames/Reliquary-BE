@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "infernal_chalice_cts6it8h"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:infernal_claws",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:emperor_chalice",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:infernal_tear",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:molten_core",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:infernal_claw",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

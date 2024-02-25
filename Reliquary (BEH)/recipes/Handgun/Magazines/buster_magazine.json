@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "buster_magazine_h76rf7h8"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:empty_magazine",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:buster_bullet",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:buster_magazine",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

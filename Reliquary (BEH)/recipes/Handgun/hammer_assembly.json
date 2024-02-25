@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hammer_assembly_nt5ef6vy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DDC",
+      "BAD",
+      "DDD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:molten_core",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:blaze_rod",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:stone_button",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:hammer_assembly",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

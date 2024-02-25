@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fertile_essence_u5rho4gj"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:rib_bone",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:catalyzing_gland",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:dye",
+        "data": 2
+      },
+      "D": {
+        "item": "bg:slime_pearl",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:fertile_essence",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

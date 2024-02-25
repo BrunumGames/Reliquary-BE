@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hero_medallion_fy5rc7h8"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:nebulous_heart",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:fortune_coin",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:witch_hat",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:infernal_tear",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:hero_medallion",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

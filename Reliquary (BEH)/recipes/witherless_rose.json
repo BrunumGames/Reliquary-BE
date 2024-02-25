@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "witherless_rose_hu5ex7h9"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:fertile_essence",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:netherstar",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:double_plant",
+        "data": 4
+      }
+    },
+    "result": {
+      "item": "bg:witherless_rose",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

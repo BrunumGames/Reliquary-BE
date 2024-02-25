@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fortune_coin_k7rx4r6v"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:nebulous_heart",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:slime_pearl",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:bat_wing",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:fortune_coin",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

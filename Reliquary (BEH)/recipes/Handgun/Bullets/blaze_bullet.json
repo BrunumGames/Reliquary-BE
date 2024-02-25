@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "blaze_bullet_jy5ed6gy"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB",
+      "BC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:blaze_powder",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:gold_nugget",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:blaze_rod",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:blaze_bullet",
+      "count": 8,
+      "data": 0
+    }
+  }
+}

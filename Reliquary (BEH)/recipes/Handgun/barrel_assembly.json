@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "barrel_assembly_ny54dugu"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      "BAB",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:magma_cream",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:nebulous_heart",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bg:barrel_assembly",
+      "count": 1,
+      "data": 0
+    }
+  }
+}
