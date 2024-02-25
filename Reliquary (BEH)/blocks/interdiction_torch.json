@@ -1,0 +1,64 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bg:interdiction_torch",
+    "category": "command"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.i_torch",
+			"minecraft:loot": "loot_tables/blocks/interdiction_torch.json",
+			"minecraft:breathability": "air",
+			"minecraft:destroy_time": 0,
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_absorption": 0,
+    "minecraft:block_light_emission": 1.0,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "interdiction_torch",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-6, 0, -6
+				],
+				"size": [
+					12, 12, 12
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          0.1,
+          0.1
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      }
+		  },
+    "events": {
+      "on_tick": {
+        "run_command": {
+          "command": [
+           "execute unless entity @e[type=bg:interdiction_torch_entity, r=1] run summon bg:interdiction_torch_entity ~~~"
+          ]
+        }
+      }
+    }
+  }
+}

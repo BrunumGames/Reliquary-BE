@@ -1,0 +1,142 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bg:pedestal_pyromancer_staff",
+      "category": "command",
+      "properties": {
+        "block:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/pedestal_pyromancer_staff.json",
+      "minecraft:geometry": "geometry.pedestal2",
+      "minecraft:destroy_time": 2.0,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:on_player_placing": {
+        "event": "update_rotation"
+      },
+      "minecraft:pick_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          10,
+          12,
+          10
+        ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          10,
+          12,
+          10
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pedestal_pyromancer_staff",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          0.1,
+          0.1
+        ],
+        "on_tick": {
+          "event": "on_tick",
+          "target": "self"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "troca"
+      }
+    },
+    "events": {
+      "update_rotation": {
+        "set_block_property": {
+          "block:rotation": "query.cardinal_facing_2d"
+        }
+      },
+      "on_tick": {
+				"run_command": {
+					"command": [
+       "function salamander_eye"
+			   		]
+			  	 }
+		  	 },
+      "troca": {
+				"run_command": {
+					"command": [
+       "gamerule sendcommandfeedback false",
+						"function pedestal_pyromancer_staff",
+       "gamerule sendcommandfeedback true"
+			   		]
+			  	 }
+		  	 }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      }
+    ]
+  }
+}
