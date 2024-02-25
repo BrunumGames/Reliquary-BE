@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome256_ki6r0duh"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:alkahestry_tome256",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:emerald",
+      "count": 7
+      },
+      {
+      "item":"bg:alkahestry_tome64",
+      "count": 1
+      }
+    ]
+  }
+}

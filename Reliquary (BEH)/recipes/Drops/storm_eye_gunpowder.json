@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "storm_eye_gunpowder_u4fudhg6"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:eye_of_the_storm",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:gunpowder",
+      "count": 10,
+      "data": 0
+    }
+  }
+}

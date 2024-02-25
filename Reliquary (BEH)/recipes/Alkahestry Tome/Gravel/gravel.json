@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome8_jyt4stgg"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gravel",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:alkahestry_tome8",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:gravel",
+      "count": 17
+      },
+      {
+      "item":"bg:alkahestry_tome4",
+      "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome32_gy5dy7hi"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:end_stone",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:alkahestry_tome32",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:end_stone",
+      "count": 49
+      },
+      {
+      "item":"bg:alkahestry_tome8",
+      "count": 1
+      }
+    ]
+  }
+}

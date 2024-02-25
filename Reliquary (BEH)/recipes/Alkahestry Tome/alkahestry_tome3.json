@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome_ju64f6gu"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:alkahestry_tome32",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:redstone",
+      "count": 32
+      },
+      {
+      "item":"bg:alkahestry_tome",
+      "count": 1
+      }
+    ]
+  }
+}

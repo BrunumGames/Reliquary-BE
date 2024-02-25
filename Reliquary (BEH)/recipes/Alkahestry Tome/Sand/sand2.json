@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome4_hy4ef7vi"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sand",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:alkahestry_tome4",
+        "data": 0
+      }
+    },
+    "result":[
+      {
+      "item":"minecraft:sand",
+      "count": 33
+      },
+      {
+      "item":"bg:alkahestry_tome",
+      "count": 1
+      }
+    ]
+  }
+}

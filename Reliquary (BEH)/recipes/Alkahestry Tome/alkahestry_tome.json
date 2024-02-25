@@ -1,0 +1,56 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alkahestry_tome_hy5ed7gi"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "bg:molten_core",
+        "data": 0
+      },
+      "B": {
+        "item": "bg:witch_hat",
+        "data": 0
+      },
+      "C": {
+        "item": "bg:eye_of_the_storm",
+        "data": 0
+      },
+      "D": {
+        "item": "bg:catalyzing_gland",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:book",
+        "data": 0
+      },
+      "F": {
+        "item": "bg:slime_pearl",
+        "data": 0
+      },
+      "G": {
+        "item": "bg:chelicerae",
+        "data": 0
+      },
+      "H": {
+        "item": "minecraft:skull",
+        "data": 1
+      },
+      "I": {
+        "item": "bg:nebulous_heart",
+        "data": 0
+      }
+    },
+    "result":{
+      "item":"bg:alkahestry_tome",
+      "count": 1
+      }
+   }
+}
